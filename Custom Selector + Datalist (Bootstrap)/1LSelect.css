@@ -1,0 +1,5 @@
+/*
+    Criado por Lucas Pinheiro.
+    https://github.com/LucasMeGames
+*/
+*:has(.form-select, .form-control) {position: relative;}input[list] + div[list] {display: none;position: absolute;width: 100%;max-height: 200px;overflow-y: auto;border-top: none;border-radius: 0 0 .375rem .375rem;z-index: 100;border: var(--bs-border-width) var(--bs-border-style) #86b7fe;box-shadow: 0px 3px 0 0.25rem rgb(13 110 253 / 25%);/* backdrop-filter: blur(3px);*/background: white;}input[list] + div[list] option {display: block;padding: 7px 5px 7px 20px;color: #414141;/*color: #101010;text-shadow: black 0 0 3px;*/font-size: 1rem;cursor: pointer;}input[list] + div[list] option:not(:last-child) {border-bottom: 1px solid #414141;}input[list] + div[list] option:hover {background: rgba(104, 123, 143, 0.2);}.form-control[list]:has(+ div[list][style*=block]), .form-select[list]:has(+ div[list][style*=block]) {border-radius: .375rem .375rem 0 0;}label:has(div[list]) {position: relative;}
